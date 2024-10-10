@@ -1,6 +1,6 @@
 
 def custom_write(file_name, strings):
-    file = open(file_name, 'a+', encoding="utf-8")
+    file = open(file_name, 'w', encoding="utf-8")
     dict_to_return = {}
     index = 1
     for string in strings:
